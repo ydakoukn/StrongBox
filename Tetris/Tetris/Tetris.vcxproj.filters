@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{216766cd-a965-4707-8707-976d526a1b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{b8ad9168-e5b7-4c62-8b99-eba6a8d73178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{99279517-4635-4956-85de-e09209a370fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainScene">
+      <UniqueIdentifier>{acfda419-2079-4f1a-a314-c417183c15bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage">
+      <UniqueIdentifier>{8c3c6edf-c638-48e7-ade4-c4557be0d9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{e9cb1796-534b-4157-b071-b75643fd93f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{8c53818c-5016-496c-ac92-74ee4b39182e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block\MainBlock">
+      <UniqueIdentifier>{f958b29d-145d-438a-a19a-83afc9c0404d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame.h">
+      <Filter>Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockBase.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockController.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRanking.h">
+      <Filter>Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Block0.h">
+      <Filter>Block\MainBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Block1.h">
+      <Filter>Block\MainBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Block2.h">
+      <Filter>Block\MainBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Block3.h">
+      <Filter>Block\MainBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Block4.h">
+      <Filter>Block\MainBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Block5.h">
+      <Filter>Block\MainBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Block6.h">
+      <Filter>Block\MainBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NextBlockDisplay.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame.cpp">
+      <Filter>Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockBase.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockController.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRanking.cpp">
+      <Filter>Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Block0.cpp">
+      <Filter>Block\MainBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Block1.cpp">
+      <Filter>Block\MainBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Block2.cpp">
+      <Filter>Block\MainBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Block3.cpp">
+      <Filter>Block\MainBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Block4.cpp">
+      <Filter>Block\MainBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Block5.cpp">
+      <Filter>Block\MainBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Block6.cpp">
+      <Filter>Block\MainBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="NextBlockDisplay.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
