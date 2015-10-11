@@ -19,7 +19,7 @@ void SandStrom::Initialize(HDC buffer,const int windowWidth,const int windowHeig
 
 	m_window={ 0, 0, windowWidth, windowHeight };
 	
-	m_sand = new unsigned char[m_window.right*m_window.bottom * m_scale];
+	m_sand.reset(new unsigned char[m_window.right*m_window.bottom * m_scale]);
 
 
 	HDC hdc;
@@ -51,16 +51,17 @@ void SandStrom::Start(HDC buffer){
 	const int width = m_window.right;
 	const int height = m_window.bottom;
 	const int scale = m_scale*m_scale;
-	for (int i = 0; i < width * height * m_scale; i+=2) {
+	for (int i = 0; i < width * height * m_scale; i+=3) {
 	
-		m_sand[i] = m_sand[i + 1] = m_sand[i + 2] = m_random >> 20;
+		m_sand.get()[i] = m_sand.get()[i + 1] = m_sand.get()[i + 1] = m_sand.get()[i + 2] = m_sand.get()[i + 2] = m_random >> 20;
+		
 		
 		// ã^éóóêêîÇÃê∂ê¨
 		m_random = (m_random * scale + 5);
 	}
 
 
-	SetDIBitsToDevice(buffer, 0, 0, width, height, 0, 0, 0, height, m_sand, &m_bitInfo, DIB_RGB_COLORS);
+	SetDIBitsToDevice(buffer, 0, 0, width, height, 0, 0, 0, height, m_sand.get(), &m_bitInfo, DIB_RGB_COLORS);
 
 
 }
@@ -69,7 +70,7 @@ void SandStrom::Start(HDC buffer){
 /// èIóπèàóù
 void SandStrom::End(){
 
-	delete[] m_sand;
+	m_sand.reset();
 
 	m_sand = nullptr;
 

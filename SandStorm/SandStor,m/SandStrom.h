@@ -31,7 +31,8 @@ class SandStrom
 
 		RECT m_window;
 
-		unsigned char* m_sand;
+		std::shared_ptr<unsigned char> m_sand;
+		//unsigned char* m_sand;
 
 		int plus;
 };
