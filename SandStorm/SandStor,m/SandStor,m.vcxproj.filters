@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{216766cd-a965-4707-8707-976d526a1b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{b8ad9168-e5b7-4c62-8b99-eba6a8d73178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{99279517-4635-4956-85de-e09209a370fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainScene">
+      <UniqueIdentifier>{acfda419-2079-4f1a-a314-c417183c15bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{71564b10-2822-45fe-967a-fb5f1b243857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame.h">
+      <Filter>Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SandStrom.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame.cpp">
+      <Filter>Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SandStrom.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

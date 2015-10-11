@@ -1,0 +1,4 @@
+﻿1>------ ビルド開始: プロジェクト:SandStor,m, 構成:Debug Win32 ------
+1>  GameManager.cpp
+1>  SandStor,m.vcxproj -> C:\Users\nwuser.DA\documents\visual studio 2013\Projects\SandStor,m\Debug\SandStor,m.exe
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========

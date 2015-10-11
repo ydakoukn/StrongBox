@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Character">
+      <UniqueIdentifier>{3c63026f-496c-4bf9-bba3-3a497a5f1a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{c9a8167e-07b3-492c-883d-9e5d070e9220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Base">
+      <UniqueIdentifier>{20d5a5ab-5eee-43a4-8418-d121a369a7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Option">
+      <UniqueIdentifier>{bf94cb75-cf8b-44c9-9308-040d2351fe70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{a93d1132-5a56-4edb-b406-e02441682aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\App">
+      <UniqueIdentifier>{f9d57716-cdb0-4406-8658-0580bb30bd32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\App">
+      <UniqueIdentifier>{d83620ab-cbce-4c5b-9090-b0abc7ff39ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CharacterBase">
+      <UniqueIdentifier>{781ad83a-04d7-49a7-a25e-f644c54edfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Map">
+      <UniqueIdentifier>{2a6f5098-db96-440e-adc7-337ef86dfbd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Map">
+      <UniqueIdentifier>{5632e741-ee4f-45bd-9035-5c77674ad955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Item">
+      <UniqueIdentifier>{d8658a10-26fd-4298-a2de-8e6bf441c4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Item">
+      <UniqueIdentifier>{8e7a799c-73e7-4894-bebf-a1a426a18613}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneGame.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>ソース ファイル\App</Filter>
+    </ClCompile>
+    <ClCompile Include="AppManager.cpp">
+      <Filter>ソース ファイル\App</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterBase.cpp">
+      <Filter>ソース ファイル\CharacterBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\CharacterBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="AppController.cpp">
+      <Filter>ソース ファイル\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\CharacterBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationAI.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneGame.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>ヘッダー ファイル\Scene\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>ヘッダー ファイル\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="AppManager.h">
+      <Filter>ヘッダー ファイル\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>ヘッダー ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="AppController.h">
+      <Filter>ヘッダー ファイル\App</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>ヘッダー ファイル\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterBase.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationAI.h">
+      <Filter>ヘッダー ファイル\Map</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
