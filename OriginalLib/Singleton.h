@@ -18,6 +18,8 @@ namespace OriginalLib{
 			// テンプレート引数型を使うのに必要
 			typedef TYPE Style;
 
+			friend Style;
+
 		public:
 
 			/*
